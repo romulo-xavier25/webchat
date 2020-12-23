@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.blocoGeral{min-height: 400px;}
+.larguraMaxima{max-width: 75%;}
+.messageFromMe{}
+.messageToMe{}
