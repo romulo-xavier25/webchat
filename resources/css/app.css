@@ -2,7 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-.blocoGeral{min-height: 400px;}
+.blocoGeral{min-height: 400px; max-height: 400px; }
 .larguraMaxima{max-width: 75%;}
-.messageFromMe{}
-.messageToMe{}
+.messageFromMe{@apply bg-indigo-300 bg-opacity-25;}
+.messageToMe{@apply bg-gray-300 bg-opacity-25;}
