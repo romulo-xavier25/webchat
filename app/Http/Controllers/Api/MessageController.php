@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Api;
 use Symfony\Component\HttpFoundation\Response;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Events\Chat\SendMessage;
+use Illuminate\Support\Facades\Event;
+use Illuminate\Auth\Events\Registered;
 use App\Models\User;
 use App\Models\Message;
 use Auth;
@@ -66,6 +69,8 @@ class MessageController extends Controller
         $message->to = $request->to;
         $message->content = $request->content;
         $message->save();
+
+        Event::dispatch(new SendMessage($message, $request->to));
     }
 
     /**

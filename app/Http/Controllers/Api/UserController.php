@@ -10,6 +10,16 @@ use Auth;
 
 class UserController extends Controller
 {
+
+    public function me()
+    {
+        $user_logado = Auth::user();
+        
+        return response()->json([
+            'user' => $user_logado,
+        ], Response::HTTP_OK);
+    }
+
     public function index()
     {
         $user_logado = Auth::user();

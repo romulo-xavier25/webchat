@@ -1,0 +1,722 @@
+/* Paginas */
+@font-face{font-family:'Proxima Nova'; src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"), 
+	url("../fonts/ProximaNova-Bold.woff") format("woff"); font-weight: bold; font-style: normal;}
+
+@font-face{font-family:'Proxima Nova'; src:url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+	url("../fonts/ProximaNova-Regular.woff") format("woff"); font-weight: normal; font-style: normal;}
+
+
+
+a:link{text-decoration: none !important;}
+a:visited{text-decoration: none !important;}
+a:hover{text-decoration: none !important;}
+a:focus{text-decoration: none !important;}
+
+a img{text-decoration: none !important; border: none !important;}
+
+body{background-color: #f3f2ef; color: #000000; font-family: "Proxima Nova", sans-serif;}
+
+.btnPadrao{background-color: #FAD246; color: #000000; font-weight: bold; padding: 10px 30px;}
+
+.informacaoTXT{padding-top: 10px;}
+.formularioCadastro{padding-top: 20px;}
+.formularioCadastro label{color: #000000; font-weight: bold;}
+.infoSpan{font-size: 10px; color: rgb(153, 153, 153);}
+.infoSpan.right{float: right; padding-top: 5px;}
+.formBtn{margin-top: 40px;}
+.btnEnviar{width: 100%; background-color: #D8272D; color: #ffffff; font-weight: bold;}
+.btnEnviar:hover{width: 100%; background-color: #D8272D; color: #ffffff; font-weight: bold;}
+.btnCancelar{width: 100%; font-weight: bold; border: 1px solid #D8272D;}
+.btnCancelar:hover{width: 100%; font-weight: bold;}
+.infoEntrar{padding-top: 15px;}
+.infoEntrar a{color: #000000; font-weight: bold;}
+
+#appLogin .right{float: right; color: rgb(153, 153, 153); text-decoration: none;}
+
+.iconeMaleta{width: 14px; height: 14px; margin-top: 11px;}
+ul li.nav-item i.icone{margin-top: 12px;}
+ul li.nav-item i.iconeL{margin-top: 12px; color: #FAD246; font-size: 20px;}
+ul li.nav-item img.imgMenuTopo{width: 20px; height: auto; margin-top: 9px; border-radius: 50%;}
+ul li a#navbarDropdown{text-transform: capitalize;}
+ul li.marginRight{margin-right: 30px;}
+ul li a.btnCadastrar{color: #000000 !important; padding: 5px 40px !important; background-color: #FAD246; font-weight: bold;
+	border: 1px solid #FAD246;}
+	ul li a.btnCadastrar:hover{color: #000000 !important; padding: 5px 40px !important; background-color: #FAD246; 
+		border: 1px solid #FAD246; font-weight: bold;}
+.descricaoFull{background-color: #000000; padding-top: 15px; padding-bottom: 5px; color: #ffffff;}
+.pesquisaFull{background-color: #FAD246; padding: 50px 15px;}
+.formBuscaFornecedor{height: 50px;}
+.marginRightForm{margin-right: 5px; padding: 0;}
+.btnPesquisar{background-color: #000000; padding: 13px 30px; color: #ffffff; font-weight: bold;}
+.tituloServicosFull{padding: 50px 15px; text-align: center;}
+.categoriasIndex{text-align: center;}
+.categorias i{font-size: 36px;}
+.blockInline{display: inline-block; padding-left: 15px; padding-right: 15px; width: 10%; float: left;}
+.ajusteCenterCategorias{margin-left: 20%;}
+.iconeCategoriaBorder{border-radius: 50%; border: 2px solid #000000; padding: 13px 5px 2px 14px; background-color: #ffffff;
+	width: 80px; height: 78px; margin: 0 auto;}
+.iconeCategoria a{color: #000000;}
+.iconeCategoria i{font-size: 22px; display: table; margin: 0 auto;}
+.iconeCategoria .iconeAdministracao{width: 80%; height: auto; margin: 0 0 0 2px; display: block;}
+.iconeCategoria .iconeTercerizacao{width: 70%; height: auto; margin: 3px 0 0 5px; display: block;}
+.iconeCategoria .iconeAuditoria{width: 60%; height: auto; margin: 6px 0 0 12px; display: block;}
+.iconeCategoria .iconeSindicos{width: 65%; height: auto; margin: 5px 0 0 7px; display: block;}
+.iconeCategoria .iconeEletricidade{width: 60%; height: auto; margin: 7px 0 0 7px; display: block;}
+.iconeCategoria .iconeBarata{width: 65%; height: auto; margin: 6px 0 0 7px; display: block;}
+.iconeCategoria .iconePintura{width: 70%; height: auto; margin: 3px 0 0 5px; display: block;}
+.iconeCategoria .iconePortalDeSeguranca{width: 70%; height: auto; margin: 5px 0 0 5px; display: block;}
+.iconeCategoria .iconeExtintor{width: 65%; height: auto; margin: 5px 0 0 8px; display: block;}
+.iconeCategoria .iconeElevador{width: 65%; height: auto; margin: 7px 0 0 6px; display: block;}
+.iconeCategoria .iconeLei{width: 70%; height: auto; margin: 4px 0 0 5px; display: block;}
+.iconeCategoria .iconeConstrucaoNovosEspacos{width: 65%; height: auto; margin: 4px 0 0 7px; display: block;}
+.categoriaTXT{width: 100%; padding: 10px 0 0 0;}
+.categoriaTXT a{color: #000000; line-height: 1.6;}
+.blocoCategoriaMarginTop{margin-top: 60px;}
+
+/* Conteudos */
+.conteudoInicialSobre{padding: 0 20px 0 15px; margin-top: 100px; margin-bottom: 30px;}
+.conteudoInicialSobre h1.h3{margin-bottom: 25px;}
+.conteudoInicialSobre h1{font-weight: bold;}
+.blocoImgSobre{padding: 0 90px 0 20px; margin-top: 100px; margin-bottom: 30px;}
+.blocoImgSobre img{border-radius: 10px;}
+.anuncioPlanosFull{background-color: #FAD246; margin: 50px 0;padding: 50px 0;}
+.anuncioPlanosFull h1{font-weight: bold;}
+.btnBranco{font-weight: bold; padding: 10px 20px;}
+.DescubraGuiaFull{padding-bottom: 50px;}
+.espacoBottom{margin-bottom: 15px;}
+.backgroundColorBlocoDescubraGuia{background-color: #FAD246; padding: 6px 0 0 0; height: 401px;}
+.DescubraGuiaFull h1{font-weight: bold;}
+
+.blocoSindico{height: 400px; padding: 0 6px 0 7px;}
+.blocoSindico .text-item{bottom: 20px;}
+.text-item h5.h6{font-weight: bold;}
+.text-item p{font-size: 10px;}
+
+.blocoColuna{height: 400px; padding: 0;}
+.blocoColuna2{height: 400px; padding: 0;}
+
+.blocoAdministrador{height: 198px; padding: 0;}
+.blocoEngenhariaCivil{height: 186px; margin-top: 5px; padding: 0; display: flex;}
+
+.blocoArquitetura{height: 180px; padding: 0;}
+.blocoTecnologia{height: 204px; margin-top: 5px; padding: 0; display: flex;}
+
+.blocoContabilidade{height: 198px; padding: 0;}
+.blocoServicosGerais{height: 186px; margin-top: 5px; padding: 0; display: flex;}
+
+/* Paginas */
+.tituloPaginas{margin: 95px 0 0 0;}
+.tituloPaginas h1{font-weight: bold;}
+.tituloPaginas span{font-size: 12px; color: #808080;}
+.resultadoTitulo{padding-top: 30px; padding-bottom: 60px;}
+.resultadoPesquisaFull{padding-bottom: 40px;}
+.categorias{height: 300px; overflow: auto; border: 1px solid #cccccc;}
+.headerCategoria{border-bottom: 1px solid #808080; padding: 5px 15px;}
+ul.menuCategorias{margin: 10px 0 0 15px; padding: 0;}
+ul.menuCategorias li{list-style: none; margin: 0 0 5px 0; padding: 0;}
+ul.menuCategorias li a{color: #000000; transition: ease 0.2s; font-size: 14px;}
+ul.menuCategorias li a:hover{color: #FAD246;}
+.anunciosDestaque{border-left: #FAD246 3px solid;  -webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); 
+	-moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	background-color: #ffffff; padding: 15px; margin: 0 0 15px 0;}
+.tituloEmpresa strong{color: #000000;}
+.infoFornecedor{color: #808080;}
+.anunciosDestaque img{border-radius: 50%;}
+.enderecoFornecedor{padding: 5px 15px;}
+.contatoFornecedor{padding: 2px 15px;}
+.contatoFornecedor i.fa-phone{margin: 0 0 0 5px; scale: -1 1;}
+i.fa-mobile{margin-left: 5px;}
+i.fa-whatsapp{margin-left: 5px;}
+
+.fontSizeText{font-size: 0.7rem; text-transform: capitalize;}
+.imgLogo{background-color: #f9f9f9; border-radius: 50%;}
+.col-md-12.imgLogo{padding: 0;}
+.borderBottomT{border-bottom: 1px solid #808080;}
+.anunciosComum{background-color: #ffffff; padding: 30px 15px; box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	-webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); -moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	margin: 15px 0;}
+.marginTop{margin-top: 50px;}
+
+.paddingAnunciosDestaque{padding-top: 15px;}
+
+.fotoPerfil{border-radius: 50%;}
+.fotoPerfil img{border-radius: 50%;}
+.fotoPerfil i.icone{font-size: 98px; color: #808080;}
+.infoPerfil strong{font-size: 10px;}
+.borderBottom{border-bottom: 2px solid #f0f0f0; padding-bottom: 15px;}
+.blocoCPF{margin-top: 15px;}
+.bloco1{padding: 15px; border-bottom: 2px solid #f0f0f0;}
+.blocoTipoDeConta{padding: 15px;}
+.blocoEmailPadding{padding: 0 0 0 15px;}
+.paginaPerfil span{font-size: 10px; color: #808080;}
+.btnAletar{margin: 0 0 15px 0; text-align: right;}
+.alterar{border: 1px solid #808080;}
+.formEditarPerfil{display: none;}
+.marginTopLabel{margin-top: 10px;}
+
+/* INICIO DO ESTILO DO INPUT FILE */
+.fotoPerfilFIle .personal-figure i.icone{font-size: 122px; color: #808080; margin: 9% 0 0 5%;}
+.fotoPerfilFIle .personal-image {
+	text-align: center;
+  }
+.fotoPerfilFIle .personal-image input[type="file"] {
+	display: none;
+  }
+.fotoPerfilFIle .personal-figure {
+	position: relative;
+	width: 120px;
+	height: 120px;
+  }
+.fotoPerfilFIle .personal-avatar {
+	cursor: pointer;
+	width: inherit;
+	height: inherit;
+	box-sizing: border-box;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+	transition: all ease-in-out .3s;
+	margin: 9% 0 0 5%;
+  }
+.fotoPerfilFIle .personal-avatar:hover {
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+.fotoPerfilFIle .personal-figcaption {
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	width: inherit;
+	height: inherit;
+	border-radius: 100%;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all ease-in-out .3s;
+	margin: 9% 0 0 5%;
+  }
+.fotoPerfilFIle .personal-figcaption:hover {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, .5);
+  }
+.fotoPerfilFIle .personal-figcaption > img {
+	margin-top: 32.5px;
+	width: 50px;
+	height: 50px;
+  }
+/* FIM DO ESTILO DO INPUT FILE */
+
+/* INICIO DO ESTILO DO INPUT FILE DO CADASTRO DE ANUNCIO */
+.fotoLogoAnuncio .personal-figure i.icone{font-size: 122px; color: #808080; margin: 9% 0 0 5%;}
+.fotoLogoAnuncio .personal-image {
+	text-align: center;
+  }
+  .fotoLogoAnuncio .personal-image input[type="file"] {
+	display: none;
+  }
+
+  .fotoLogoAnuncio textarea {
+	resize: none;
+  }
+
+.fotoLogoAnuncio .personal-figure {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	background-color: #e6e6e6;
+	border-radius: 50%;
+  }
+
+.fotoLogoAnuncio .personal-figure img.semLogotipo{width: 50%; height: auto; margin: 24% 0 0 0;}
+.fotoLogoAnuncio .personal-figure img.comLogotipo{width: 100%; height: auto; margin: 0; transition: ease 0.3s;}
+.fotoLogoAnuncio .personal-figure img.logotipoRetangulo{width: 100%; height: 180px; margin: 0; transition: ease 0.3s; border-radius: 50%;}
+.imgLogo img.logotipoRetangulo{width: 100%; height: 110px; margin: 0; transition: ease 0.3s; border-radius: 50%;}
+.fotoLogoAnuncio .personal-figure img.comLogotipo:hover{opacity: 0.1;}
+
+.iconeCameraFotoPerfilAnuncio{margin: 30% 0 0 0;}
+
+.fotoLogoAnuncio .personal-avatar {
+	cursor: pointer;
+	width: inherit;
+	height: inherit;
+	box-sizing: border-box;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+	transition: all ease-in-out .3s;
+	margin: 0;
+  }
+.fotoLogoAnuncio .personal-avatar:hover {
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+.fotoLogoAnuncio .personal-figcaption {
+	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	width: inherit;
+	height: inherit;
+	border-radius: 100%;
+	opacity: 0;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all ease-in-out .3s;
+	margin: 0;
+  }
+.fotoLogoAnuncio .personal-figcaption:hover {
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0.3);
+  }
+.fotoLogoAnuncio .personal-figcaption > img {
+	margin-top: 32.5px;
+	width: 50px;
+	height: 50px;
+	}
+/* FIM DO ESTILO DO INPUT FILE */
+
+/* INICIO DO ESTILO DO INPUT FILE DO CADASTRO DE ANUNCIO */
+.fotoCapaPerfilAnuncio{display: table;}
+.fotoCapaPerfilAnuncio .label{width: 100%; height: auto; background-color: #e6e6e6; transition: ease 0.3s;}
+.fotoCapaPerfilAnuncio .label:hover{width: 100%; height: auto;  background-color: rgba(0, 0, 0, 0.4);}
+.fotoCapaPerfilAnuncio .personal-figure i.icone{font-size: 122px; color: #808080; margin: 9% 0 0 5%;}
+.fotoCapaPerfilAnuncio .personal-image {text-align: center;}
+.fotoCapaPerfilAnuncio .personal-image input[type="file"] {display: none;}
+.fotoCapaPerfilAnuncio textarea {resize: none;}
+.fotoCapaPerfilAnuncio .personal-figure {position: relative; width: 180px; height: 180px; margin: 0 auto;}
+.fotoCapaPerfilAnuncio .personal-figure img{width: 50%; height: auto; margin: 24% 0 0 0;}
+.fotoCapaPerfilAnuncio .personal-avatar {cursor: pointer;	width: inherit;	height: inherit; box-sizing: border-box; border-radius: 100%;
+	border: 2px solid transparent; box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2); transition: all ease-in-out .3s; margin: 0;}
+.fotoCapaPerfilAnuncio .personal-avatar:hover {box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);}
+.fotoCapaPerfilAnuncio .personal-figcaption {cursor: pointer; position: absolute; top: 0px; width: inherit; height: inherit;
+	border-radius: 100%; opacity: 0; background-color: rgba(0, 0, 0, 0); transition: all ease-in-out .3s; margin: 0;}
+.fotoCapaPerfilAnuncio .personal-figcaption > img {margin-top: 32.5px; width: 50px; height: 50px;}
+/* FIM DO ESTILO DO INPUT FILE */
+
+.sidebarMenu{margin: 100px 0;}
+ul.menuSidebar{margin: 0; padding: 0;}
+ul.menuSidebar li{list-style: none; margin: 0 0 20px 0;}
+ul.menuSidebar li a{color: #000000; display:block; padding: 5px 10px;}
+ul.menuSidebar li a.ativo{background-color: rgba(255, 203, 0, 0.2);}
+ul.menuSidebar li a img{filter: invert(81%) sepia(23%) saturate(4180%) hue-rotate(358deg) brightness(105%) contrast(105%); 
+	width: 24px; height: 24px; margin-right: 5px;}
+.conteudoPadrao{background-color: #ffffff; padding: 40px 15px; box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	-webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); -moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	margin: 20px 0 100px 0;}
+.conteudoMeusAnuncios{background-color: #ffffff; padding: 0 15px; box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	-webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); -moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	margin: 20px 0;}
+.conteudoAnuncio{padding: 40px 15px; margin: 100px 0;}
+.conteudoCadastrarAnuncio{padding: 40px 15px; margin: 0 0 40px 0;}
+.anuncioGoogleSidebar{margin-top: 30px;}
+
+.tipoDePlanoPadrao{background-color: #D8272D; padding: 5px; color: #ffffff; border-radius: 3px;}
+
+.anunciosComum img{border-radius: 50%;}
+.paginacao{padding: 50px 15px; text-align: center;}
+ul.paginacaoLinks{margin: 0 auto; padding: 0; display: table;}
+ul.paginacaoLinks li{list-style: none; float: left; margin: 0 15px 0 0;}
+ul.paginacaoLinks li a{color: #000000; transition: ease 0.2s;}
+ul.paginacaoLinks li a:hover{color: #FAD246;}
+ul.paginacaoLinks li a i{color: #ffffff; background-color: #d0211c; padding: 5px 10px;}
+
+.blocoSemPadding{padding: 0;}
+.larguraDescubraEmNossaGuia{max-width: 98%;}
+
+span.ajusteFonte{font-size: 10px;}
+.borderTop{border-top: 2px solid #f0f0f0;}
+.blocoMeusAnuncio{padding: 25px 15px;}
+.blocoMeusAnuncio .imgLogo img{border-radius: 50%;}
+.infoRestanteFornecedor span{font-size: 0.7rem;}
+
+.conteudoPaginaCadastrarAnuncio{padding: 50px 15px;}
+.fotoLogoAnuncio form label{margin: 10px 0 5px; font-weight: bold;}
+.conteudoPaginaCadastrarAnuncio span.infoDetalhe{font-size: 10px; color: #808080; float: right;}
+.conteudoPaginaCadastrarAnuncio .displayTable{display: table;}
+.conteudoPaginaCadastrarAnuncio label{margin-top: 0.5rem;}
+
+.blocoRedesSociaisAnuncio{background-color: #ffffff; padding: 20px 15px; box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	-webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); -moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	margin: 40px 0;}
+.blocoRedesSociaisAnuncio h1{font-weight: bold;}
+.tituloRedesSociais{padding: 0 30px;}
+.tituloRedesSociais h1, .tituloRedesSociaisHorarioDeFuncionamento h1{color: #808080;}
+.blocoRedesSociaisAnuncio .iconeFacebookSVG{width: 22px; height: 22px; margin: 20px 0 0 0;
+	filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(98%) contrast(88%);}
+.blocoRedesSociaisAnuncio img, .blocoRedesSociaisAnuncio input{margin-top: 15px;}
+
+.backgroundOnOffDomingo{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+.backgroundOnOffSegunda{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+.backgroundOnOffTerca{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+.backgroundOnOffQuarta{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+.backgroundOnOffQuinta{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+.backgroundOnOffSexta{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+.backgroundOnOffSabado{background-color: #e6e6e6; border-radius: 20px; width: 60%; height: 15px; margin: 22px 0 0 0;}
+
+.btnOFF{background-color: #ffffff; font-size: 10px; border-radius: 50%; width: 12px; height: 12px; padding: 0; margin: -7px 0 0 2px;}
+.btnON{background-color: #ffffff; font-size: 10px; border-radius: 50%; width: 12px; height: 12px; padding: 0; margin: -7px 0 0 38px;}
+.inputAbreDomingo{display: none;}
+.inputFechaDomingo{display: none;}
+.inputAbreSegunda{display: none;}
+.inputFechaSegunda{display: none;}
+.inputAbreTerca{display: none;}
+.inputFechaTerca{display: none;}
+.inputAbreQuarta{display: none;}
+.inputFechaQuarta{display: none;}
+.inputAbreQuinta{display: none;}
+.inputFechaQuinta{display: none;}
+.inputAbreSexta{display: none;}
+.inputFechaSexta{display: none;}
+.inputAbreSabado{display: none;}
+.inputFechaSabado{display: none;}
+.blocoDiasDaSemana span{margin: 23px 0 0 0; float: left;}
+.inputDiaDaSemana{border-left: none; border-right: none; border-top: none; border-radius: 0;}
+
+.ajusteBtnPadrao{margin-right: 15px; margin-top: 15px;}
+
+.recuperarSenha{margin: 50px 0; }
+.recuperarSenha .card-header{background-color: #FAD246;}
+.recuperarSenha .card-body{padding: 40px 15px;}
+.recuperarSenha .btnPadraoForm{background-color: #FAD246; font-weight: bold;}
+.btnMarginFormResetSenha{margin: 0 0 0 47%;}
+.strong{font-weight: bold;}
+
+.fullPaginaContato{padding: 50px 15px}
+.contatoTitulo{text-align: center; margin-bottom: 50px;}
+.contatoTitulo h1{font-weight: bold;}
+
+.conteudoContato{margin-bottom: 50px;}
+.conteudoContato .fontSize{font-size: 14px;}
+
+.formContatoOuvidoria label{font-weight: bold;}
+.formContatoOuvidoria span.infoDetalhe{font-size: 10px; color: #808080; float: right; margin-top: 5px;}
+.noResize{resize: none;}
+
+.fullPaginaPlanos{padding: 50px 15px}
+.planosTitulo{text-align: center; margin-bottom: 50px;}
+.planosTitulo h1{font-weight: bold;}
+
+.opcoesPlanos{border: 1px solid #808080; margin: 0 auto;}
+.borderRight{border-right: 1px solid #808080;}
+
+.valorDesconto{width: 45px; height: 20px; display: inline-block; background-color: #FAD246; border-radius: 10px;
+	padding: 3px 0 0 10px; margin: 15px 0; font-size: 10px;}
+.radioFormPadrao{border: #FAD246;}
+
+/* PAGINACAO */
+.setaAntes{width: 30px; background-color: #FAD246; color: #000000;}
+.setaDepois{width: 30px; background-color: #FAD246; color: #000000;}
+.marginNumeroPaginacao{margin: 0 15px 0 5px; font-size: 14px; color: #000000;}
+.colorFonte{color: #000000; border: 1px solid #FAD246; padding: 5px 7px 5px 10px;}
+.colorFonte:hover{color: #000000;}
+
+/* Rodape */
+.rodapeFull{background-color: #262626; color: #ffffff; padding: 30px 20px 10px 20px;}
+.rodapeFull h1.h6{font-weight: bold;}
+ul.menuRodape{padding: 0;}
+ul.menuRodape li{list-style: none;}
+ul.menuRodape li a{color: #ffffff; transition: ease 0.2s;}
+ul.menuRodape li a:hover{color: #FAD246;}
+.redesSociaisRodape{text-align: center;}
+ul.menuRodapeRedesSociais{padding: 0;}
+ul.menuRodapeRedesSociais li{list-style: none; display: inline-block; margin: 0 20px 0 0;}
+ul.menuRodapeRedesSociais li a{color: #ffffff; transition: ease 0.2s;}
+ul.menuRodapeRedesSociais li a:hover{color: #FAD246;}
+ul.menuRodapeRedesSociais li a i{font-size: 1.4rem;}
+.minhaContaRodape{padding-bottom: 20px;}
+.copyright{font-size: 10px;}
+
+/* Efeito Zoom */
+.zoom {
+	overflow: hidden;
+}
+
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.zoom:hover img {
+	-moz-transform: scale(1.0);
+	-webkit-transform: scale(1.0);
+	transform: scale(1.9);
+}
+
+.text-item {
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 0;
+	z-index: 10;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: #ffffff;
+	text-align: left;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+/* EFEITO PARA CHEBOX VIRAR BOTAO ON/OFF */
+.switch {
+  visibility: hidden;
+  position: absolute;
+  margin-left: -9999px;
+}
+
+.switch + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+.switch--shadow + label {
+  padding: 2px;
+  width: 50px;
+  height: 17px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+.switch--shadow + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+.switch--shadow + label:after {
+  width: 15px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+.switch--shadow:checked + label:before {
+  background-color: #FAD246;
+}
+.switch--shadow:checked + label:after {
+  transform: translateX(35px);
+}
+.marginLabel{margin: 25px 0 0 0;}
+
+/* Estilo Flat */
+.switch--flat + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: #dddddd;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+.switch--flat + label:before,
+.switch--flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+.switch--flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #fff;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+.switch--flat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 56px;
+  background-color: #dddddd;
+  border-radius: 52px;
+  transition: margin 0.4s, background 0.4s;
+}
+.switch--flat:checked + label {
+  background-color: #8ce196;
+}
+.switch--flat:checked + label:after {
+  margin-left: 60px;
+  background-color: #8ce196;
+}
+
+
+/* CSS CUSTOMIZADO - FORM RADIO */
+/* The container */
+.labelPlanos {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  font-size: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.labelPlanos input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #ffffff;
+	border: 1px solid #FAD246;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.labelPlanos:hover input ~ .checkmark {
+	background-color: #ffffff;
+	border: 1px solid #FAD246;
+}
+
+/* When the radio button is checked, add a blue background */
+.labelPlanos input:checked ~ .checkmark {
+  background-color: #ffffff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.labelPlanos input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.labelPlanos .checkmark:after {
+ 	top: 2px;
+	left: 2px;
+	width: 9px;
+	height: 8px;
+	border-radius: 50%;
+	background: #FAD246;
+}
+
+.ajuesteOpcaoPlano{float: left; margin: 14px 0 0 20px;}
+.tiposPlanos{padding: 80px 15px;}
+.maisPopular{background-color: #FAD246; color: #000000; height: 50px; padding-top: 15px;}
+.blocoTiposPlanos{height: 580px; background-color: #ffffff; padding: 30px 15px; box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	-webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); -moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);
+	border: 1px solid #eeeeee;}
+.zoom2{transition: transform .2s;}
+.zoom2:hover{-ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);}
+.borderBottomTiposPlanos{border-bottom: 1px solid #7777; padding: 0;}
+.efeitoAjustePadraoTiposPlanos{font-size: 12px; color: #777777;}
+.blocoDestaqueDesconto{border-radius: 10px; padding: 3px 0 0 0; background-color: #FAD246; color: #777777;
+	width: 130px; height: 20px; text-align: center; margin: 0 auto; font-size: 10px;}
+.paddingTopBottom{padding: 20px 0;}
+.marginTiposPlanos{margin-top: 15px; margin-bottom: 15px;}
+.btnTiposPlanos{background-color: #fbe491; color: #000000; font-weight: bold; padding: 5px 15px; transition: ease 0.3s;}
+.btnTiposPlanos:hover{background-color: #FAD246;}
+.valorPlano{height: 60px; padding: 15px 0;}
+.marginBottom{margin-bottom: 20px;}
+ul.vantagensTipoPlano{margin-top: 30px; padding: 0 0 0 13px;}
+ul.vantagensTipoPlano li{margin-bottom: 2px; list-style: none;}
+.txtInfoFornecedor{margin-top: 110px;}
+.imgGrafico{margin-top: 30px;}
+.titutloVantagensAnunciar{padding: 100px 15px 50px 15px;}
+.backgroundColorMarrom{background-color: #E0BF5A; padding: 5px 15px; border-radius: 5px;}
+.backgroundColorMarrom2{background-color: #E0BF5A; padding: 5px 15px 0 15px; border-radius: 5px;}
+.backgroundColorMarrom2 img{margin-top: 1px;}
+.paddingTop{padding: 15px;}
+.imgFluid{width: 75%; height: auto; margin: 0 auto; display: block;}
+.paddingFull{padding: 15px;}
+#btnAdicionaEmail{margin-top: 5px; margin-bottom: 10px; display: block; text-align: right; font-size: 10px;}
+.marginFormCadastro{margin: 20px 0 0 0;}
+.opcaoDosSindicos{display: none;}
+
+.efeitoFumacaBloco{-webkit-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); 
+	-moz-box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7); box-shadow: -1px -1px 5px rgba(192, 192, 192, 0.7);}
+.anuncioBannerTopoFull img{width: 100%; height: auto;}
+.espacamentoAnuncio{margin-top: 100px; padding: 30px 15px; margin-bottom: 100px;}
+.conteudoAnunciante{margin: 25px 0;}
+.borderRadius{border-radius: 50%;}
+.tituloRedesSociaisAnunciantes{padding-top: 25px;}
+.tituloRedesSociaisAnunciantes h1.h5{margin-bottom: 0;}
+.iconesRedesSociaisAnunciante ul{margin: 0; padding: 0;}
+.iconesRedesSociaisAnunciante ul li{list-style: none; display: inline; margin-right: 5px;}
+.iconesRedesSociaisAnunciante ul li a img{width: 28px; height: 28px; }
+.avaliacaoAnuncio{text-align: right; font-size: 16px;}
+.blocoHorarioFuncionamento{font-size: 11px; margin-top: 15px; border: 1px solid #e6e6e6; padding: 20px 15px;}
+.blocoHorarioFuncionamento a{color: #000000;}
+.blocoLocalizacaoAnunciante{margin-bottom: 15px;}
+.blocoContatoAnunciante{margin-top: 15px;}
+.blocoSiteAnunciante{margin-top: 15px;}
+.blocoHorarioFuncionamentoAnunciante{margin-top: 15px;}
+.iconeLocalizacaoAnunciante{width: 16px; height: 16px; margin-right: 5px; filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(98%) contrast(88%);}
+.iconeEmailAnunciante{width: 16px; height: 16px; margin-right: 5px; filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(98%) contrast(88%);}
+.iconeContatoAnunciante{width: 16px; height: 16px; margin-right: 5px; margin-top: 5px; filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(98%) contrast(88%);}
+.iconeSiteAnunciante{width: 16px; height: 16px; margin-right: 5px; filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(98%) contrast(88%);}
+.iconeHorarioFuncionamentoAnunciante{width: 16px; height: 16px; margin-right: 5px; filter: invert(51%) sepia(0%) saturate(0%) hue-rotate(33deg) brightness(98%) contrast(88%);}
+.blocoDiaDaSemanaAnunciante{padding: 10px 15px 0 15px;}
+.statusHorarioFuncionamentoAnunciante{margin-left: 25px; color: green;}
+.diaSemanaAnunciante{margin-left: 25px; margin-bottom: 8px;}
+.horarioAnunciante{margin-top: 42px;}
+.blocoHorarioAnunciante p{margin-bottom: 8px;}
+.blocoSobreAnunciante{margin-top: 25px;}
+.blocoAvaliacaoAnunciante{margin-top: 40px;}
+.textAreaForm{resize: none; font-size: 12px;}
+.textAreaForm ::placeholder{font-size: 12px;}
+.textAreaForm  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 12px;
+}
+.textAreaForm  ::-moz-placeholder { /* Firefox 19+ */
+  font-size: 12px;
+}
+.textAreaForm :-ms-input-placeholder { /* IE 10+ */
+  font-size: 12px;
+}
+.textAreaForm :-moz-placeholder { /* Firefox 18- */
+  font-size: 12px;
+}
+.avaliarAnunciante span.infoDetalhe{font-size: 10px; color: #808080; float: right;}
+.inputTextAreaForm{padding-left: 0;}
+.inputBtnForm{display: table;}
+.inputBtnForm .ajusteBtnPadrao{margin: 10px 0 0 0;}
+.blocoComentarios{margin-top: 75px;}
+.imgFotoPerfil img{border-radius: 50%;}
+.dadosPerfil h1{margin-top: 25px; text-transform: capitalize;}
+.quantidadeAvaliado{margin: 15px 0;}
+.dataQueFoiAvaliado{margin: 15px 0;}
+.marginTopBottom{margin: 40px 0;}
+.verTodosComentarios a.btnDesocultarComentarios{color: #808080; font-weight: bold; cursor: pointer;}
+.verTodosComentarios a.btnOcultarComentarios{color: #808080; font-weight: bold; cursor: pointer;}
+
+.blocoEstrelas i.fa.fa-star{font-size: 22px;}
+.blocoEstrelas input[type=radio]{display: none;}
+.blocoEstrelas label i.fa.fa-star:before{content: '\f005'; color: #FAD246;}
+.blocoEstrelas input[type=radio]:checked ~ label i.fa.fa-star:before{color: #e6e6e6;}
+
+.avaliacaoAnuncio i.fa.fa-star.backgroundAmareloPadrao{color: #FAD246; font-size: 22px;}
+.avaliacaoAnuncio .borderAmareloPadrao{font-size: 20px;}
+i.fa.fa-star.backgroundAmareloPadrao{color: #FAD246; font-size: 15px;}
+.borderAmareloPadrao{color: #FAD246;}
+.displayNone{display: none;}
+
+.estrelasFornecedor .estrelaPreenchida{color: #FAD246;}
+.estrelasFornecedor .estrelaVazia{color: #cccccc;}
+
+.botaoAlterar .btnAlterar{margin: 10px 0 0 0;}

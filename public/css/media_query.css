@@ -1,0 +1,79 @@
+/* Todas as medidas responsivo */
+
+/* Iphone 4 e 5 - Portrait */
+@media only screen and (max-width: 320px){
+    .navbar-nav li.nav-item{display: inline-block;}
+}
+
+/* Iphone 4 - Landscape */
+@media only screen and (min-width: 320px) and (max-width : 480px){
+
+}
+
+/* Android Mobile - Portrait */
+@media only screen and (min-width: 320px) and (max-width : 440px){
+    .paginaIndex{min-height: 4000px;}
+    .navbar-nav{display: block; margin: 15px 0;}
+    .navbar-nav li.nav-item{display: inline-block; margin-bottom: 10px;}
+    .iconeMaleta{margin: 0;}
+    .ajusteResponsivoIcone{width: 10%;}
+    .ajusteResponsivoTXT{width: 80%;}
+    ul li.marginRight{margin: 0;}
+    ul li a.btnCadastrar{margin-top: 15px;}
+    .navbar-toggler{margin: 15px 0;}
+    .marginRightForm{margin: 0 0 15px 0;}
+    .blockInline{width: 50%; margin: 0 0 30px 0;}
+    .categoriasIndex{margin-top: 10px;}
+    .conteudoInicialSobre{margin-top: 20px;}
+    .blocoImgSobre{margin-top: 20px; padding: 15px;}
+    .backgroundColorBlocoDescubraGuia{display: table; margin: 0 auto;}
+
+    .opcoesPlanos{padding-bottom: 20px;}
+    .ajuesteOpcaoPlano{margin: 14px 0 0 0;}
+    .blocoTiposPlanos{height: 400px; display: table;}
+    .ajusteResponsivoPlanos{margin-top: 50px;}
+    .tiposPlanos{padding: 40px 15px;}
+    .txtInfoFornecedor{margin: 15px 0 0 0;}
+
+    #ataEleicao.form-control{font-size: 0.8rem;}
+    .formDateCadastro{margin-bottom: 15px;}
+
+    .conteudoContato{margin: 0;}
+    .contatoTitulo{margin-bottom: 25px;}
+    .formContatoOuvidoria{margin: 0;}
+    
+    .btnEnviar{margin-bottom: 15px;}
+
+    .navbar-nav li.nav-item.dropdown.marginRight{width: 80%; margin-left: 10px;}
+
+    .sidebarMenu{margin: 50px 0 25px 0;}
+    .tituloPaginas{margin: 40px 0 0 0}
+    .fotoPerfil img{width: 50%; margin: 0 auto; display: block;}
+
+    .conteudoPaginaResultados{margin: 25px 0; padding: 0;}
+    .resultadoTitulo h1.h1{font-size: 1.6rem;}
+    .col-md-12.imgLogo{width: 60%; height: 160px; display: block; margin: 0 auto;}
+    .anunciosDestaque img{width: 100%;}
+    .anunciosComum img{width: 95%; height: 160px; display: block; margin: 0 auto;}
+    .infoFornecedor{margin-top: 25px;}
+    .tituloEmpresa{margin: 5px 0;}
+    .estrelasFornecedor{margin: 5px 0;}
+    .infoRestanteFornecedor{margin: 5px 0;}
+    .enderecoFornecedor{margin: 5px 0;}
+
+}
+
+/* Android Mobile - Landscape */
+@media only screen and (min-width: 560px) and (max-width : 640px){
+    
+}
+
+/* Tablet - Portrait */
+@media only screen and (min-width: 480px) and (max-width : 600px){
+    
+}
+
+/* Tablet - Landscape */
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    
+}
